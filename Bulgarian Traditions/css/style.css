@@ -1,0 +1,203 @@
+p
+{font-size:15pt; 
+font-family:Calibri;
+line-height:1.5;
+text-align: justify;
+text-indent: 1em;}
+
+.header {text-align: center;}
+
+li  
+{font-size:15pt; font-family:Calibri; line-height:1.5; list-style-type:none; padding-right: 23px;} 
+.spisak {text-align: left;}
+  
+  h3 {font-size: 22px; text-align: left; color: rgb(85, 65, 65)}
+  h2 {font-size: 29px; text-align: left; padding-left:20px;}
+  h1 {font-size: 31px; text-align: center;}
+
+  img {border-radius: 8px;}
+
+  @keyframes slider {
+    0% {
+       left: 0;
+   }
+   
+   20% {
+       left: 0;
+   }
+   
+   25% {
+       left:-100%;
+   }
+   
+   45% {
+       left:-100%;
+   }
+   
+   50% {
+       left:-200%;
+   }
+   
+   70% {
+       left:-200%;
+   }
+   
+   75% {
+       left:-300%;
+   }
+   
+   95% {
+       left:-300%;
+   }
+   100% {
+       left:-400%;}
+
+    110% {left:-500%;}
+   
+}
+   #slider {
+       overflow: hidden; 
+   }
+   #slider figure img {
+       width: 20%;
+       float: left; 
+   }
+   #slider figure{
+       position: relative;
+       width: 500%;
+       margin: 0;
+       left: 0;
+       text-align: left;
+       font-size: 0;
+       animation: 15s slider infinite;
+   }
+   header{
+       margin-top: 15px;
+   }
+   #headerPictureFont{
+       -webkit-filter: blur(5px);
+       -moz-filter: blur(5px);
+       -o-filter: blur(5px);
+       -ms-filter: blur(5px);
+       filter: blur(5px);
+       width: 100%;
+       position: fixed;
+       z-index: -2;
+       margin-top: -400px;
+   }
+   #headerPicture {
+       position: relative;
+       margin-bottom: 30px;
+       width: 1110px;
+       margin:auto;
+       box-shadow: 7px 7px 10px #404040;}
+
+       main {
+        position: relative;
+        background-color: #FFEFDB;
+        margin: auto;
+        width: 90%;
+        box-shadow: 0px 0px 4px 4px rgb(224, 204, 195);
+        margin-top: 15px;
+        padding-top: 3px;
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-bottom: 3px;
+    } 
+    .main {position: relative;
+        background-color: #CAE1FF;
+        margin: auto;
+        width: 90%;
+        box-shadow: 0px 0px 4px 4px rgb(168, 195, 229);
+        margin-top: 15px;
+        padding-top: 3px;
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-bottom: 3px;}
+
+    .dropbtn {
+        background-color: rgb(202, 177, 177);
+        color:black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      .button1 {background-color: rgb(130, 189, 189);
+        color:black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;}
+        .button1:hover {
+            background-color: #86a6b4;
+          }
+        
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-family:monotype corsiva;
+        display: block;
+        font-size:16pt;
+        }
+      
+      .dropdown-content a:hover {background-color: #bdb8b8}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #887a7a;
+      }
+
+table {
+	text-align:center;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+	font-size:18px;}
+
+  .daqna {font-size:22px;}
+  .viki {font-size:22px;}
+
+  th {letter-spacing: 12px;
+font-size:23px;}
+
+.td1 {font-size: 15pt;
+padding-right: 25px;
+font-family:Calibri;
+line-height:1.5;
+text-align: justify;
+text-indent: 1em;}
+
+.td2 {font-size: 15pt;
+    text-align: justify;
+    font-family:Calibri;
+    line-height:1.5;
+    text-indent: 1em;
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 10px;
+padding-top: 5px;}
+
